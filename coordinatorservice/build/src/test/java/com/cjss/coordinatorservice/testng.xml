@@ -1,0 +1,25 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestDependency">
+
+    <test name="TestCase1">
+
+        <classes>
+            <class
+                    name="com.cjss.coordinatorservice.controller.AccountRestControllerTest">
+            </class>
+            <class
+                    name="com.cjss.coordinatorservice.controller.ProductRestControllerTest">
+            </class>
+            <class
+                    name="com.cjss.coordinatorservice.controller.InventoryRestControllerTest">
+            </class>
+            <class
+                    name="com.cjss.coordinatorservice.controller.CartRestControllerTest">
+            </class>
+        </classes>
+
+    </test>
+
+</suite>
